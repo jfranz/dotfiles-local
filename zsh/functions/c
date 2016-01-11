@@ -1,0 +1,5 @@
+# cd into projects directory
+
+function c() {
+  cd $PROJECTS/$1;
+}

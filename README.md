@@ -35,6 +35,13 @@ This will create symlinks for config files in my home directory.
 
 I can safely run `rcup` multiple times to update.
 
+OS X Defaults
+-------
+
+Run osx script to set defaults:
+
+    ./.osx
+
 What's in it?
 -------------
 

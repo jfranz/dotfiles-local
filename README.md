@@ -55,3 +55,5 @@ What's in it?
 * `restart-postgres` alias to restart Homebrew'd Postgres.
 * `install-missing-ruby` alias to upgrade Homebrew'd `ruby-build` and install
   Ruby implicitly from `.ruby_version` file in current directory.
+* `nom` reset npm modules
+* `nombom` reset npm and bower dependencies

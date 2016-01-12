@@ -1,0 +1,9 @@
+#!/bin/sh
+
+brew_install_or_upgrade 'aria2'
+brew_install_or_upgrade 'ffmpeg'
+brew_install_or_upgrade 'ngrok'
+brew_install_or_upgrade 'terminal-notifier'
+brew_install_or_upgrade 'watchman'
+brew_install_or_upgrade 'wget'
+brew_install_or_upgrade 'youtube-dl'

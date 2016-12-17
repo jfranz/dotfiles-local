@@ -1,2 +1,2 @@
-EXCLUDES="README.md LICENSE .osx"
+EXCLUDES="README.md LICENSE .macos"
 DOTFILES_DIRS="$HOME/code/dotfiles-local $HOME/code/thoughtbot/dotfiles"

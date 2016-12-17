@@ -1,9 +1,18 @@
 #!/bin/sh
 
-brew_install_or_upgrade 'aria2'
-brew_install_or_upgrade 'ffmpeg'
-brew_install_or_upgrade 'ngrok'
-brew_install_or_upgrade 'terminal-notifier'
-brew_install_or_upgrade 'watchman'
-brew_install_or_upgrade 'wget'
-brew_install_or_upgrade 'youtube-dl'
+brew bundle --file=- <<EOF
+brew "aria2"
+brew "ffmpeg"
+brew "terminal-notifier"
+brew "watchman"
+brew "wget"
+brew "youtube-dl"
+EOF
+
+fancy_echo "Cleaning up old Homebrew formulae ..."
+brew cleanup
+
+if [ -r "$HOME/.rcrc" ]; then
+  fancy_echo "Updating dotfiles ..."
+  rcup
+fi

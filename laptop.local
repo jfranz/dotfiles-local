@@ -4,7 +4,6 @@ brew bundle --file=- <<EOF
 brew "aria2"
 brew "ffmpeg"
 brew "terminal-notifier"
-brew "watchman"
 brew "wget"
 brew "youtube-dl"
 EOF

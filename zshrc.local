@@ -2,12 +2,3 @@
 
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
-
-# Ruby
-# eval "$(rbenv init - --no-rehash)"
-
-# JavaScript
-export PATH="$PATH:`yarn global bin`"
-
-# thoughtbot/laptop
-export PATH="$HOME/.bin:$PATH"

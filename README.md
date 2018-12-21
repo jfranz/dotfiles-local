@@ -45,10 +45,6 @@ Run macos script to set defaults:
 What's in it?
 -------------
 
-[sublime](http://www.sublimetext.com/3) configuration:
-
-* subl customizations TBD
-
 [git](http://git-scm.com/) configuration:
 
 * `l` alias for tight, colored, log output.

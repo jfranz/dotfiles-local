@@ -1,2 +1,2 @@
 export VISUAL=vim
-export EDITOR='subl -w'
+export EDITOR='code -w'

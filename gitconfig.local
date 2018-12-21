@@ -2,6 +2,8 @@
   l = log --pretty=colored
 [pretty]
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
+[core]
+  editor = code -n -w
 [user]
   name = Jeremy Franz
   email = jfranz@gmail.com

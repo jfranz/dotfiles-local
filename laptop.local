@@ -6,6 +6,7 @@ brew "ffmpeg"
 brew "terminal-notifier"
 brew "wget"
 brew "youtube-dl"
+brew "puma/puma/puma-dev"
 EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."

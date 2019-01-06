@@ -7,6 +7,7 @@ brew "terminal-notifier"
 brew "wget"
 brew "youtube-dl"
 brew "puma/puma/puma-dev"
+cask "chromedriver"
 EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."

@@ -18,3 +18,6 @@ alias fs='foreman start'
 
 # Unix
 alias ...='../..'
+
+# VS Code
+alias code='code-insiders'

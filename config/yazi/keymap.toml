@@ -1,0 +1,4 @@
+[mgr]
+prepend_keymap = [
+  { on = "o", run = "open --interactive", desc = "Interactive open" },
+]

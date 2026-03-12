@@ -1,23 +1,6 @@
-# DNS
-alias flush-cache="sudo discoveryutil mdnsflushcache; sudo discoveryutil udnsflushcaches"
-
 # Git
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gs='git status -sb'
-
-# Node
-alias nom='npm cache clear && rm -rf node_modules && npm install'
-alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install'
-
-# Postgres
-alias restart-postgres="rm /usr/local/var/postgres/postmaster.pid; launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist; launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
-
-# Ruby
-alias install-missing-ruby="brew update && brew upgrade ruby-build && rbenv install"
-alias fs='foreman start'
-
-# Unix
-alias ...='../..'
 
 # Yazi file manager — cd to last directory on exit
 function y() {

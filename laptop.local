@@ -1,12 +1,17 @@
 #!/bin/sh
 
 brew bundle --file=- <<EOF
-brew "aria2"
+brew "bat"
+brew "fd"
 brew "ffmpeg"
-brew "terminal-notifier"
+brew "fzf"
+brew "glow"
+brew "jq"
+brew "lazygit"
+brew "ripgrep"
 brew "wget"
-brew "youtube-dl"
-cask "chromedriver"
+brew "yazi"
+brew "zoxide"
 EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."

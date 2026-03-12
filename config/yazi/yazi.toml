@@ -1,0 +1,15 @@
+[opener]
+md = [
+  { run = 'glow -p %s', desc = "Render markdown", block = true, for = "unix" },
+  { run = '$EDITOR %s', desc = "Edit", block = true, for = "unix" },
+  { run = 'code %s', desc = "VS Code", orphan = true, for = "unix" },
+]
+vscode = [
+  { run = 'code %s', desc = "VS Code", orphan = true, for = "unix" },
+]
+
+[open]
+prepend_rules = [
+  { url = "*.md", use = "md" },
+  { mime = "text/*", use = ["edit", "vscode"] },
+]

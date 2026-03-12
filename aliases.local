@@ -2,6 +2,9 @@
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gs='git status -sb'
 
+# Lazygit — use ~/.config path on macOS (rcm-managed)
+alias lazygit='lazygit -ucd ~/.config/lazygit'
+
 # Yazi file manager — cd to last directory on exit
 function y() {
   local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
